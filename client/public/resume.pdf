@@ -1,0 +1,137 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792]
+   /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+
+4 0 obj
+<< /Length 2800 >>
+stream
+BT
+/F2 22 Tf
+50 740 Td
+(Muhammad Soman Ashraf) Tj
+/F1 11 Tf
+0 -22 Td
+(Full Stack Developer | MERN Stack | Flutter Developer) Tj
+/F1 9 Tf
+0 -14 Td
+(somanashraf17@gmail.com  |  Hasilpur, Pakistan  |  github.com  |  linkedin.com) Tj
+
+/F2 13 Tf
+0 -30 Td
+(SUMMARY) Tj
+/F1 9 Tf
+0 -16 Td
+(Software Engineering student at COMSATS University Islamabad, Vehari Campus.) Tj
+0 -13 Td
+(Passionate full-stack developer specializing in MERN stack and Flutter.) Tj
+0 -13 Td
+(Experienced in building scalable web and mobile applications with clean architecture.) Tj
+
+/F2 13 Tf
+0 -28 Td
+(EDUCATION) Tj
+/F1 10 Tf
+0 -16 Td
+(COMSATS University Islamabad, Vehari Campus) Tj
+/F1 9 Tf
+0 -13 Td
+(Bachelor of Science in Software Engineering  |  2022 - Present) Tj
+
+/F2 13 Tf
+0 -28 Td
+(TECHNICAL SKILLS) Tj
+/F1 9 Tf
+0 -16 Td
+(Frontend:  HTML5, CSS3, JavaScript \(ES6+\), React.js, Tailwind CSS) Tj
+0 -13 Td
+(Backend:   Node.js, Express.js, REST APIs, JWT Authentication) Tj
+0 -13 Td
+(Database:  MongoDB, Mongoose) Tj
+0 -13 Td
+(Mobile:    Flutter, Dart) Tj
+0 -13 Td
+(Languages: C++, Python) Tj
+0 -13 Td
+(Tools:     Git, GitHub, Canva, VS Code, Postman) Tj
+
+/F2 13 Tf
+0 -28 Td
+(PROJECTS) Tj
+/F1 10 Tf
+0 -16 Td
+(Portfolio Website  |  MERN Stack) Tj
+/F1 9 Tf
+0 -13 Td
+(Full-stack portfolio with admin panel, visitor analytics, dark/light theme.) Tj
+0 -13 Td
+(Built with React, Node.js, Express, MongoDB, Framer Motion.) Tj
+/F1 10 Tf
+0 -18 Td
+(E-Commerce Platform  |  MERN Stack) Tj
+/F1 9 Tf
+0 -13 Td
+(Full-stack e-commerce app with cart, payments, and admin dashboard.) Tj
+0 -13 Td
+(Technologies: React, Node.js, MongoDB, Stripe.) Tj
+/F1 10 Tf
+0 -18 Td
+(Task Management App  |  React + Socket.io) Tj
+/F1 9 Tf
+0 -13 Td
+(Real-time collaborative task manager with drag-and-drop and team workspaces.) Tj
+/F1 10 Tf
+0 -18 Td
+(Flutter Mobile App  |  Flutter + Firebase) Tj
+/F1 9 Tf
+0 -13 Td
+(Cross-platform mobile application with clean UI and smooth animations.) Tj
+
+/F2 13 Tf
+0 -28 Td
+(PERSONAL DETAILS) Tj
+/F1 9 Tf
+0 -16 Td
+(Date of Birth:  05 November 2004) Tj
+0 -13 Td
+(Nationality:    Pakistani) Tj
+0 -13 Td
+(Languages:      English, Urdu, Punjabi) Tj
+0 -13 Td
+(Location:       Hasilpur, Pakistan) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000003126 00000 n 
+0000003210 00000 n 
+
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3299
+%%EOF
