@@ -120,7 +120,6 @@ export default function About() {
           >
             <motion.h3 variants={item} className="about-name">{about.name}</motion.h3>
             <motion.p variants={item} className="about-title neon-text">{about.title}</motion.p>
-            <motion.p variants={item} className="about-bio">{about.bio}</motion.p>
 
             <motion.div variants={container} className="about-details">
               {details.map(({ icon: Icon, label, value, isContact }) => (
