@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import Intro from '../components/Intro';
 import SideMenu from '../components/SideMenu';
 import Hero from '../components/sections/Hero';
 import About from '../components/sections/About';
@@ -9,8 +12,11 @@ import AnimatedBackground from '../components/AnimatedBackground';
 import ScrollProgress from '../components/ScrollProgress';
 
 export default function Portfolio() {
+  const [introDone, setIntroDone] = useState(false);
+
   return (
     <>
+      {/* Portfolio always mounted underneath */}
       <ScrollProgress />
       <AnimatedBackground />
       <SideMenu />
@@ -22,6 +28,11 @@ export default function Portfolio() {
         <section id="contact"><Contact /></section>
       </main>
       <Footer />
+
+      {/* Intro overlays on top, auto-exits */}
+      <AnimatePresence>
+        {!introDone && <Intro onDone={() => setIntroDone(true)} />}
+      </AnimatePresence>
     </>
   );
 }
