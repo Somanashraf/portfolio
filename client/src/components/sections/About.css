@@ -26,8 +26,8 @@
 }
 .about-title { font-size: 1rem; font-weight: 600; margin-bottom: 1.25rem; font-family: 'Fira Code', monospace; }
 .about-bio {
-  color: var(--text-secondary); line-height: 1.9; margin-bottom: 2rem;
-  font-size: 1rem; font-weight: 300;
+  color: var(--text-secondary); line-height: 1.8; margin-bottom: 2rem;
+  font-size: 0.95rem; font-weight: 300;
 }
 
 .about-details { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }

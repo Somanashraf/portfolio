@@ -8,7 +8,7 @@ import './About.css';
 const defaults = {
   name: 'Muhammad Soman Ashraf',
   title: 'Full Stack Developer',
-  bio: `I'm a Software Engineering student at COMSATS University Islamabad, Vehari Campus, with a deep passion for building things that live on the internet. I specialize in full-stack web development using the MERN stack — crafting everything from pixel-perfect UIs to robust, scalable backend systems. Beyond the web, I develop cross-platform mobile apps with Flutter, bringing ideas to life on both iOS and Android. I believe great software is not just about working code — it's about clean architecture, thoughtful design, and experiences that genuinely help people. When I'm not coding, I'm exploring new technologies, contributing to projects, or sharpening my problem-solving skills.`,
+  bio: `I'm a Full Stack Developer and Software Engineering student at COMSATS University, Vehari, passionate about building things that make a difference. I specialize in the MERN stack and Flutter — crafting everything from pixel-perfect UIs to robust backend systems. I write clean, maintainable code and care deeply about performance, design, and user experience. Whether it's a web app or a mobile product, I bring ideas to life with precision and purpose.`,
   email: 'somanashraf17@gmail.com',
   location: 'Hasilpur, Pakistan',
   github: 'https://github.com',
