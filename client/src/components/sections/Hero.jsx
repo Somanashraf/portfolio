@@ -9,7 +9,7 @@ export default function Hero() {
   const [about, setAbout] = useState({
     name: 'Muhammad Soman Ashraf', title: 'Full Stack Developer',
     github: 'https://github.com/Somanashraf', linkedin: 'https://linkedin.com/in/muhammad-soman-ashraf-746766258',
-    email: 'somanashraf17@gmail.com', resumeUrl: '', avatar: '/profile.jpeg',
+    email: 'somanashraf17@gmail.com', resumeUrl: '', avatar: '/profile1.jpeg',
   });
 
   const mouseX = useMotionValue(0);
