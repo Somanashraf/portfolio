@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiDownload, FiArrowRight } from 'react-icons/fi';
@@ -9,7 +9,7 @@ export default function Hero() {
   const [about, setAbout] = useState({
     name: 'Muhammad Soman Ashraf', title: 'Full Stack Developer',
     github: 'https://github.com/Somanashraf', linkedin: 'https://linkedin.com/in/muhammad-soman-ashraf-746766258',
-    email: 'somanashraf17@gmail.com', resumeUrl: '', avatar: '/profile1.jpeg',
+    email: 'somanashraf17@gmail.com', resumeUrl: '', avatar: '/profile/profile1.jpeg',
   });
 
   const mouseX = useMotionValue(0);
@@ -19,7 +19,7 @@ export default function Hero() {
 
   useEffect(() => {
     api.get('/about').then(r => setAbout(prev => ({
-      ...prev, ...r.data, avatar: r.data.avatar || prev.avatar,
+      ...prev, ...r.data, avatar: prev.avatar,
     }))).catch(() => {});
   }, []);
 
@@ -166,3 +166,4 @@ export default function Hero() {
     </div>
   );
 }
+
