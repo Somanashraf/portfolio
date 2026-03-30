@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   FiX, FiMenu, FiSun, FiMoon, FiDownload,
@@ -52,7 +52,7 @@ export default function SideMenu() {
 
   return (
     <>
-      {/* ── Floating toggle button ── */}
+      {/* â”€â”€ Floating toggle button â”€â”€ */}
       <motion.button
         className="nav-toggle"
         onClick={() => setOpen(o => !o)}
@@ -74,7 +74,7 @@ export default function SideMenu() {
         </AnimatePresence>
       </motion.button>
 
-      {/* ── Backdrop ── */}
+      {/* â”€â”€ Backdrop â”€â”€ */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -88,7 +88,7 @@ export default function SideMenu() {
         )}
       </AnimatePresence>
 
-      {/* ── Drawer ── */}
+      {/* â”€â”€ Drawer â”€â”€ */}
       <AnimatePresence>
         {open && (
           <motion.aside
@@ -183,3 +183,4 @@ export default function SideMenu() {
     </>
   );
 }
+
