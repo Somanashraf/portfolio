@@ -110,7 +110,7 @@ export default function SideMenu() {
             <div className="nd-profile">
               <div className="nd-avatar-ring">
                 <img
-                  src="/profile/profile1.jpeg"
+                  src="/profile/profile2.jpeg"
                   alt="Muhammad Soman"
                   className="nd-avatar"
                   onError={e => {
